@@ -28,8 +28,13 @@ body{
     color: var(--font-light);
     background-color: var(--bg-color);
     transition: all 500ms;
+   
 }
-
+.hero-container{
+   /* color: var(--font-light);
+    background-color: var(--bg-color);
+    transition: all 500ms;*/
+}
 nav{
     display: flex;
     justify-content: flex-end;
@@ -118,8 +123,41 @@ nav ul li{
 
 
 
+.section-tab{
+    width: 100%;
+    border: 1px solid #fff;
+    margin-top: 30px;
+}
 
-
+.section-tab ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.btn-container{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.section-tab .btn-links{
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+}
+.tabcontent{
+    
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    padding: 10px 20px;
+}
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
 footer{
     display: flex;
     justify-content: center;
