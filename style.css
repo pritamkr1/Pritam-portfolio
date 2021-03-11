@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-style: 'Open Sans', sans-serif;
+    --primary-color: #404040;
+    --border-color: #4040406b;
+}
+body{
+    height: 100vh;
+}
+#section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.103);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.profile-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 0.5px solid var(--border-color);
+    font-family: var(--font-style);
+    margin: 0 20px;
+    overflow: visible;
+    width: 350px;
+}
+.profile-container img{
+    width: 195px;
+    max-width: 100%;
+    margin: 20px 0;
+}
+.profile-container ul{
+    margin-top: 10px;
+}
+.profile-container ul li{
+    list-style: none;
+    padding: 0;
+    margin: 8px 40px;
+    font-size: 0.9rem;
+}
+.profile-container ul li span{
+    font-weight: 700;
+}
+.profile-container .progress{
+    width: 100%;
+    background-color: #40404038;
+    border: 0px solid #404040;
+    margin: 10px 0 10px 0;
+    display: block;
+   
+}
+.profile-container .progress-bar{
+    height: 7px;
+}
+.skill-name{
+    font-size: 0.6rem;
+}
+
+
+.content-container{
+    position: absolute;
+    margin-left: 400px;
+    width: 900px;
+}
