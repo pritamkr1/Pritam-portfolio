@@ -82,12 +82,45 @@
         <div class="biography">
                 <h1>Biography</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque ipsa eaque quis cum atque expedita molestias fugiat officia praesentium deserunt quam fugit nisi modi voluptas, id error cupiditate explicabo maiores.</p>
+
+                <div class="section-tab">
+                    <div class="btn-container">
+                        <ul>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'info')" id="defaultOpen">Info</button></li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'project')">Projetcs</button></li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'repo')">Repository</button></li>
+                            <li><button class="btn-links" onclick="OpenTabContent(event, 'blog')">Blog</button></li>
+                        </ul>
+                        </div>
+
+                        <div class="tabcontent" id="info">
+                            <h1>Information</h1>
+                        </div>
+
+                        <div class="tabcontent" id="project">
+                            <h1>Projects</h1>
+                        </div>
+
+                        <div class="tabcontent" id="repo">
+                            <h1>Repository</h1>
+                        </div>
+
+                        <div class="tabcontent" id="blog">
+                            <h1>Blog</h1>
+                        </div>
+
+                    </div>
+                </div>
+
          </div>
+
+         
 
     </section>
     <footer>
         <p>Code by Pritam</p>
     </footer>
    <script src="script.js"></script>
+   <script src="tab.js"></script>
 </body>
 </html>
