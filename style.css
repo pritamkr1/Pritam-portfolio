@@ -177,7 +177,7 @@ footer{
         grid-template-columns: 350px ;
         grid-template-rows: auto auto;
     }
-    .biography{padding: 10px 35px;
-        margin: 10px 30px;
+    .biography{padding: 10px 8px;
+        margin: 10px 0px;
         width: 100%;} 
 }
