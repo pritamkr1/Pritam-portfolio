@@ -109,6 +109,7 @@ nav ul li{
     font-family: var(--font-style);
     padding: 10px 35px;
     margin: 10px 30px;
+    width: 100%;
 }
 .biography h1{
     font-family: var(--heading-font);
@@ -168,4 +169,15 @@ footer{
     font-size: small;
     font-weight: 300;
     padding: 12px 0;
+}
+
+@media(max-width: 700px){
+    .hero-container{
+        display: grid;
+        grid-template-columns: 350px ;
+        grid-template-rows: auto auto;
+    }
+    .biography{padding: 10px 35px;
+        margin: 10px 30px;
+        width: 100%;} 
 }
