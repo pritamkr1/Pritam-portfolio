@@ -38,10 +38,11 @@
 }
 .biography .tabcontent .project-row{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 32% 32% 32%;
     grid-template-rows: auto;
     grid-gap: 10px;
     margin-top: 10px;
+    justify-content: center;
 }
 .biography .tabcontent .projetc-container{
     border: 0px solid #fff;
@@ -52,6 +53,7 @@
     height: 150px;
     border-radius: 5px;
     display: block;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 .biography .tabcontent .projetc-container .overlay {
     position: absolute;

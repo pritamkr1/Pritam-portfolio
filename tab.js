@@ -13,3 +13,7 @@ function OpenTabContent(evt, tabName) {
   }
 
   document.getElementById("defaultOpen").click();
+
+  function playAudio(url) {
+    new Audio(url).play();
+  }
