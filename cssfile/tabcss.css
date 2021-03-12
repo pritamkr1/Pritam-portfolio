@@ -86,6 +86,12 @@
     font-size: small;
     font-weight: 300;
   }
+
+  .biography #project{
+    overflow-y: scroll;
+    height: 450px !important;
+  }
+
 /*----------------*/
 .biography .tabcontent .projetc-container{
     Position: relative;
