@@ -1,0 +1,9 @@
+.biography .tabcontent ul li{
+    list-style-type: none  !important;
+    display: block  !important;
+    margin-bottom: 7px;
+}
+.biography .tabcontent .skill-name{
+    font-weight: 500;
+    font-size: 0.7rem;
+}
