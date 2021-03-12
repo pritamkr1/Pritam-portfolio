@@ -192,5 +192,11 @@ footer{
         margin: 10px 0;
     }
 
+    .section-tab .btn-links{
+        width: auto;
+        height: auto;
+        padding: 10px 8px;
+    }
+
 }
 
