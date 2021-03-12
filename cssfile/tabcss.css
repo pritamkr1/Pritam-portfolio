@@ -1,9 +1,38 @@
+:root{
+    --font-style: 'Open Sans', sans-serif;
+    --primary-color: #404040;
+    --border-color: #4040406b;
+
+    --bg-color: #171923;
+    --bg-light: #232535;
+    --font-color: #c5cddb;
+    --font-light: #ffffff;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Noto Sans JP', sans-serif;
+}
+
+.lightMode{
+    --bg-color: #E8E6DC;
+  --bg-light: #DCDACA;
+  --font-color: #3D3D3D;
+  --font-light: #202020;
+}
 .biography .tabcontent ul li{
     list-style-type: none  !important;
     display: block  !important;
     margin-bottom: 7px;
+    font-family: var(--paragraph-font);
 }
 .biography .tabcontent .skill-name{
     font-weight: 500;
     font-size: 0.7rem;
+}
+.biography .tabcontent .content-heading{
+    font-size: 0.99rem;
+    font-family: var(--heading-font);
+}
+.biography .tabcontent .content-paragraph{
+    font-family: var(--paragraph-font);
+    font-size: 0.9em;
+    margin: 10px 0;
 }

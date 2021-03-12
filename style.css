@@ -51,12 +51,13 @@ nav ul li{
     display: grid;
     grid-template-columns: 450px 1fr;
     grid-template-rows: auto;
+    height: 100vh;
 }
 
 
 .profile-container{
     padding: 10px 30px;
-    height: 100%;
+    height: auto;
     border-right: 0.5px solid var(--border-color);
     font-family: var(--font-style);
     overflow: visible;
@@ -140,7 +141,7 @@ nav ul li{
     padding: 10px 25px;
 }
 .tabcontent{
-    
+    height: 100%;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
     padding: 10px 20px;
@@ -165,11 +166,12 @@ footer{
     padding: 12px 0;
 }
 
-@media(max-width: 800px){
+@media(max-width: 850px){
     .hero-container{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: auto auto;
+        height: auto;
     }
     .biography{
         margin: 10px 0px;
