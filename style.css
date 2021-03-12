@@ -26,9 +26,8 @@
 body{
     height: 100vh;
     color: var(--font-light);
-    background-color: var(--bg-color);
+    background-color: var(--bg-light);
     transition: all 500ms;
-   
 }
 nav{
     display: flex;
@@ -51,7 +50,7 @@ nav ul li{
     display: grid;
     grid-template-columns: 450px 1fr;
     grid-template-rows: auto;
-    height: 100vh;
+    height: 95vh;
 }
 
 
