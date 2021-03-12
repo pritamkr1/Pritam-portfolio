@@ -36,3 +36,38 @@
     font-size: 0.9em;
     margin: 10px 0;
 }
+.biography .tabcontent .project-row{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+.biography .tabcontent .projetc-container{
+    border: 0px solid #fff;
+    
+}
+.biography .tabcontent .projetc-container img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+@media(max-width: 850px){
+    .biography .tabcontent .project-row{
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        margin-top: 10px;
+    }
+    .biography .tabcontent .projetc-container img{
+        width: 100%;
+        height: 250px;
+    }
+
+    .biography #project{
+        overflow: scroll;
+        height: 500px !important;
+    }
+}
